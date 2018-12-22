@@ -29,7 +29,9 @@
             <span>=</span>
             <span class="total red">{{ values[0] + values[2] }}</span>
           </span>
-          <span v-if="values[0] !== values[1]">
+          <span
+            v-if="values[0] !== values[1]"
+            class="right-column-row-right">
             <Die :value="values[1]" color="neutral"/>
             <span>+</span>
             <Die :value="values[2]" color="red"/>
@@ -45,7 +47,9 @@
             <span>=</span>
             <span class="total blue">{{ values[0] + values[3] }}</span>
           </span>
-          <span v-if="values[0] !== values[1]">
+          <span
+            v-if="values[0] !== values[1]"
+            class="right-column-row-right">
             <Die :value="values[1]" color="neutral"/>
             <span>+</span>
             <Die :value="values[3]" color="blue"/>
@@ -61,7 +65,9 @@
             <span>=</span>
             <span class="total green">{{ values[0] + values[4] }}</span>
           </span>
-          <span v-if="values[0] !== values[1]">
+          <span
+            v-if="values[0] !== values[1]"
+            class="right-column-row-right">
             <Die :value="values[1]" color="neutral"/>
             <span>+</span>
             <Die :value="values[4]" color="green"/>
@@ -77,7 +83,9 @@
             <span>=</span>
             <span class="total yellow">{{ values[0] + values[5] }}</span>
           </span>
-          <span v-if="values[0] !== values[1]">
+          <span
+            v-if="values[0] !== values[1]"
+            class="right-column-row-right">
             <Die :value="values[1]" color="neutral"/>
             <span>+</span>
             <Die :value="values[5]" color="yellow"/>
@@ -161,22 +169,25 @@ body {
     font-size: 24px;
   }
   #right-column .die {
-    width: 36px;
-    height: 36px;
+    width: 5vw;
+    height: auto;
     padding: 8px;
   }
   .right-column-row {
     padding: 0 8px;
   }
+  .right-column-row-right { 
+    padding-left: 2vw;
+  }
   .right-column-row span {
     display: inline-block;
     vertical-align: middle;
-    font-size: 20px;
+    font-size: 3vw;
     font-weight: bold;
   }
   .right-column-row .total {
     padding: 0 8px;
-    font-size: 24px;
+    font-size: 4vw;
   }
   .right-column-row .total.red {
     color: #d73f4c;
