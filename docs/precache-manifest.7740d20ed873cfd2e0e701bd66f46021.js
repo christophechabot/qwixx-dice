@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/qwixx-dice/js/chunk-vendors.c1e41029.js"
   },
   {
-    "revision": "4b8f772ce3fddeabf0aa",
-    "url": "/qwixx-dice/js/app.04d5cb41.js"
+    "revision": "5ae2a314e5cd5ec23d6b",
+    "url": "/qwixx-dice/js/app.2fbb643c.js"
   },
   {
-    "revision": "240044049ae8fc046cf314074dadc2ba",
+    "revision": "8ae5f5bc73a7294dbadbd104687939cf",
     "url": "/qwixx-dice/index.html"
   },
   {
-    "revision": "4b8f772ce3fddeabf0aa",
+    "revision": "5ae2a314e5cd5ec23d6b",
     "url": "/qwixx-dice/css/app.5e335de5.css"
   }
 ];
